@@ -1,0 +1,35 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+
+.navbar, footer{
+  background: #0575E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+body {
+  padding-top: 3.5rem;
+  font-size: 1.10rem;
+  font-weight: 300;
+  
+  /* color: white; */
+}
+
+.jumbotron {
+  background: lightgray;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.page-footer {
+  font-size: 1rem;
+}
+

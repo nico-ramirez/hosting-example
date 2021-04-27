@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.5">
-    <title>Servicio de Construcción de Sitios Web</title>
+    <title>Servicio de Construcción</title>
 
 
 
@@ -53,7 +53,7 @@
                     </li>
                     <li class="nav-item dropdown mr-2">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">PRDUCTOS</a>
+                            aria-haspopup="true" aria-expanded="false">PRODUCTOS</a>
                         <div class="dropdown-menu" aria-labelledby="dropdown01">
                             <a class="dropdown-item" href="alojamiento.html">AlOJAMIENTO</a>
                             <a class="dropdown-item" href="diseño.html">DISEÑO</a>
@@ -101,7 +101,7 @@
                         </div>
                         <p class="lead"><i class="bi bi-hammer"></i> hasta 3 páginas incluidas</p>
                     </div>
-      
+
                 </div>
                 <div class="card shadow-lg mb-5 rounded border-warning border-1">
                     <div class="card-title bg-warning text-center py-3">
@@ -123,6 +123,29 @@
                 </div>
             </div>
         </div>
+
+
+
+        <div class="justify-content-center">
+            <div class="card shadow-lg rounded justify-content-center text-center border-warning border-1 mb-xl-5">
+                <div class="card-title">
+                    <h3 class="mx-5 mt-5">Seleccione la cantidad de páginas a construir!</h3>
+                </div>
+                <div class="card-body text-center">
+                    <h2 name="Valor" id="Valor">AR$ 2.400</h2>
+                    <form class="form-inline justify-content-center">
+                        <label for="staticEmail" class="col-form-label">Cantidad de páginas</label>
+                        <input type="number" class="form-control ml-5" min="1" name="Input" value="1" id="Input">
+                    </form>
+                </div>
+                <div class="card-footer d-flex justify-content-center bg-white border-0 mb-5">
+                    <button class="btn btn-success">
+                        <h4>Agregar al Carrito</h4>
+                    </button>
+                </div>
+            </div>
+        </div>
+
 
         <div class="my-5 row d-flex justify-content-center">
             <h2 class="display-4 align-center">Promociones especiales</h2>
@@ -338,5 +361,22 @@
     <div class="footer-copyright text-center py-4">© 2021 Copyright: utn-hosting.com
     </div>
 </footer>
+
+<script>
+    $("#Input").change(function () {
+        let paginas = $("#Input").val();
+        let Valor = 2400;
+        let Monto = 0;
+        if (paginas <= 3) {
+            Monto = paginas * Valor;
+            $('#Valor').text("AR$ " + new Intl.NumberFormat('de-DE').format(Monto));
+        }
+
+        if (paginas > 3) {
+            Monto = (paginas * Valor) * 0.9;
+            $('#Valor').text("AR$ " + new Intl.NumberFormat('de-DE').format(Monto));
+        }
+    });
+</script>
 
 </html>

@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Jekyll v3.8.5">
-  <title>Jumbotron Template · Bootstrap</title>
+  <title>Home</title>
 
 
 
@@ -28,100 +28,122 @@
   <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/pricing/">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
 
+  <link rel="stylesheet" href="css/index.css">
   <style>
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
 
-    body {
-      background: #ffe259;
-      /* fallback for old browsers */
-      background: -webkit-linear-gradient(to right, #ffa751, #ffe259);
-      /* Chrome 10-25, Safari 5.1-6 */
-      background: linear-gradient(to right, #ffa751, #ffe259);
-      /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    }
-
-    .jumbotron {
-      background: lightgray;
-
-    }
-
-    @media (min-width: 768px) {
-      .bd-placeholder-img-lg {
-        font-size: 3.5rem;
-      }
-    }
   </style>
   <!-- Custom styles for this template -->
   <link href="./index_files/jumbotron.css" rel="stylesheet">
+  <link href="./css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/#">UTN-Hosting</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand mr-4" href="index.html"><i class="bi bi-server"></i> UTN-HOSTING</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/#">Home <span
-              class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/#">Nosotros<span
-              class="sr-only"></span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/#">Contacto<span
-              class="sr-only"></span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/#"
-            id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown01">
-            <a class="dropdown-item" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/#">Servidores</a>
-            <a class="dropdown-item" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/#">Diseño</a>
-            <a class="dropdown-item" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/#">Construcción</a>
-            <a class="dropdown-item" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/#">Mantenimiento</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/#">Armá tu paquete<span
-              class="sr-only"></span></a>
-        </li>
-      </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Buscar" aria-label="Search">
-        <button class="btn btn-primary mr-3 my-2 my-sm-0" type="submit">Buscar</button>
-        <button type="button" class="btn btn-success">
-          <i class="bi bi-cart3"></i>
-          Mi Carrito
-        </button>
-      </form>
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item mr-2">
+            <a class="nav-link" href="index.html">HOME</a>
+          </li>
+          <li class="nav-item mr-2 active">
+            <a class="nav-link" href="aboutus.html">NOSOTROS</a>
+          </li>
+          <li class="nav-item mr-2">
+            <a class="nav-link" href="#">CONTACTO</a>
+          </li>
+          <li class="nav-item dropdown mr-2">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">PRDUCTOS</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="alojamiento.html">AlOJAMIENTO</a>
+              <a class="dropdown-item" href="Diseño.html">DISEÑO</a>
+              <a class="dropdown-item" href="#">CONSTRUCCIÓN</a>
+              <a class="dropdown-item" href="#">MENTENIMIENTO</a>
+            </div>
+          </li>
+          <li class="nav-item mr-2">
+            <a class="nav-link" href="#">ARMÁ TU PAQUETE</a>
+          </li>
+        </ul>
+        <form class="form-inline justify-content-lg-end justify-content-md-start">
+          <input class="form-control col-md-7 d-md-none d-lg-none d-xl-block mr-lg-2" type="text" placeholder="Buscar"
+            aria-label="Buscar">
+          <button class="btn btn-primary mr-3 my-2 my-sm-0" type="submit"><i class="bi bi-search"></i></button>
+          <button type="button" class="btn btn-success">
+            <i class="bi bi-cart3"></i>
+          </button>
+        </form>
+      </div>
     </div>
   </nav>
 
 
   <main role="main">
-
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1 class="display-3">CARROUSEL!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a
-          jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.
-        </p>
-        <p><a class="btn btn-primary btn-lg" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/#"
-            role="button">Learn more »</a></p>
+    <div class="bd-example">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://www.redeszone.net/app/uploads-redeszone.net/2019/10/caracteristicas-hosting-web.jpg"
+              class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>First slide label</h5>
+              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+              <a class="btn btn-warning" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/#"
+                role="button">Alojamientos »</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://digitalisthub.com/wp-content/uploads/2017/02/disenoweb.jpg" class="d-block w-100"
+              alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Second slide label</h5>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+              <a class="btn btn-warning" href="Diseño.html" role="button">Diseños »</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://previews.123rf.com/images/liaarevadze/liaarevadze1708/liaarevadze170800040/83650825-dise%C3%B1o-plano-de-sitio-web-en-construcci%C3%B3n-proceso-de-construcci%C3%B3n-de-p%C3%A1gina-web-dise%C3%B1o-de-formulario-de-sitio-de-d.jpg"
+              class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third slide label</h5>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
+              <a class="btn btn-warning" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/#"
+                role="button">Construcción »</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://empresaconectada.es/wp-content/uploads/Las-claves-de-un-buen-mantenimiento-web.jpg"
+              class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <!-- <h5>Third slide label</h5>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p> -->
+              <a class="btn btn-warning" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/#"
+                role="button">Mantenimiento »</a>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
 
@@ -130,79 +152,79 @@
       <div class="p-4 mb-4 d-flex justify-content-center">
         <h1 class="display-4">Nuestros Servicios</h1>
       </div>
-      <div class="row">
-        <div class="card m-4">
-          <div class="card-header">
-            <h2>Alojamiento</h2>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p>
-              Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
-              tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-              fermentum massa justo sit amet risus. Etiam porta sem malesuada
-              magna mollis euismod. Donec sed odio dui.
-            </p>
-            <a class="btn btn-secondary" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/#"
-              role="button">View details »</a>
-          </div>
+      <div class="card shadow-lg mb-5 rounded border-warning border-1">
+        <div class="card-title bg-warning text-center py-3">
+          <h2>Alojamiento</h2>
+        </div>
+        <div class="card-body text-center">
+          <h4 class="card-title">Hosting con dominio propio y herramientas únicas para que tu sitio web no pare de
+            crecer</h4>
+          <p>
+            Desde hace más de 4 años ayudamos a emprendedores como vos a lograr que sus sitios web brillen por si
+            mismos.
+          </p>
+        </div>
+        <div class="card-footer d-flex justify-content-center bg-white border-0 mb-5">
+          <button class="btn btn-success">
+            <h5> Ver planes de Hosting »</h5>
+          </button>
         </div>
       </div>
 
-      <div class="row">
-        <div class="card m-4">
-          <div class="card-header">
-            <h2>Diseño</h2>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p>
-              Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
-              tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-              fermentum massa justo sit amet risus. Etiam porta sem malesuada
-              magna mollis euismod. Donec sed odio dui.
-            </p>
-            <a class="btn btn-secondary" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/#"
-              role="button">View details »</a>
-          </div>
+      <div class="card shadow-lg mb-5 rounded border-warning border-1">
+        <div class="card-title bg-warning text-center py-3">
+          <h2>Diseño</h2>
+        </div>
+        <div class="card-body text-center">
+          <h4 class="card-title">Tu página web
+            o tienda online. Simple, rápido y profesional</h4>
+          <p>
+            Déjala en manos de nuestros expertos que la harán por tí.
+          </p>
+        </div>
+        <div class="card-footer d-flex justify-content-center bg-white border-0 mb-5">
+          <button class="btn btn-success">
+            <h5> Ver planes de Diseño »</h5>
+          </button>
         </div>
       </div>
 
-      <div class="row">
-        <div class="card m-4">
-          <div class="card-header">
-            <h2>Construcción</h2>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p>
-              Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
-              tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-              fermentum massa justo sit amet risus. Etiam porta sem malesuada
-              magna mollis euismod. Donec sed odio dui.
-            </p>
-            <a class="btn btn-secondary" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/#"
-              role="button">View details »</a>
-          </div>
+      <div class="card shadow-lg mb-5 rounded border-warning border-1">
+        <div class="card-title bg-warning text-center py-3">
+          <h2>Construcción</h2>
+        </div>
+        <div class="card-body text-center">
+          <h4 class="card-title">Special title treatment</h4>
+          <p>
+            Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
+            tellus ac cursus commodo, tortor mauris condimentum nibh, ut
+            fermentum massa justo sit amet risus. Etiam porta sem malesuada
+            magna mollis euismod. Donec sed odio dui.
+          </p>
+        </div>
+        <div class="card-footer d-flex justify-content-center bg-white border-0 mb-5">
+          <button class="btn btn-success">
+            <h5> Ver planes de Construcción »</h5>
+          </button>
         </div>
       </div>
 
-      <div class="row">
-        <div class="card m-4">
-          <div class="card-header">
-            <h2>Mantenimiento</h2>
-          </div>
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p>
-              Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
-              tellus ac cursus commodo, tortor mauris condimentum nibh, ut
-              fermentum massa justo sit amet risus. Etiam porta sem malesuada
-              magna mollis euismod. Donec sed odio dui.
-            </p>
-            <a class="btn btn-secondary" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/#"
-              role="button">View details »</a>
-          </div>
+      <div class="card shadow-lg mb-5 rounded border-warning border-1">
+        <div class="card-title bg-warning text-center py-3">
+          <h2>Mantenimiento</h2>
+        </div>
+        <div class="card-body text-center">
+          <h4 class="card-title">¡Haremos que tu web enamore a tus clientes!</h4>
+          <p>
+            Exprimiremos tu página web hasta que enamore: bien posicionada en Google y demás buscadores web, segura,
+            rápida y, sobretodo, eficaz y rentable para tu empresa, ¡atrayendo potenciales clientes y logrando
+            resultados reales!
+          </p>
+        </div>
+        <div class="card-footer d-flex justify-content-center bg-white border-0 mb-5">
+          <button class="btn btn-success">
+            <h5> Ver planes de Mantenimiento »</h5>
+          </button>
         </div>
       </div>
 
@@ -211,12 +233,107 @@
 
     <hr>
 
-    </div> <!-- /container -->
 
   </main>
 
-  <footer class="container">
-    <p>© Company 2017-2019</p>
+  <footer class="page-footer text-white page-footer-dark font-small pt-5 pb-4">
+    <div class="container text-center text-md-left">
+      <div class="row">
+        <div class="col-md-4 mt-md-0 mb-3 mt-3 mr-md-5">
+          <h5 class="text-uppercase mb-4">Nosotros</h5>
+          <p>
+            Somos un grupo humano unido por el objetivo de acompañar a las personas en la
+            realización de sus proyectos y sueños mediante el uso de Internet y teconologías
+            relacionadas. Desde nuestras oficinas ubicadas en Buenos Aires, Lima, Madrid, Ciudad de
+            México, Monterrey, Santiago de Chile, Boston y Seattle brindamos nuestros servicios a más de
+            200 empresas en 50 países.
+          </p>
+          <br>
+          <p>
+            Con nuestro equipo de 600 profesionales, ofrecemos soluciones que cuentan con una
+            valoración promedio de 4.9 sobre 5 puntos en base a las opiniones de nuestros propios clientes
+          </p>
+        </div>
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <div class="col-md-3 mb-md-0 ml-md-4 mb-3">
+          <h5 class="text-uppercase mb-4">Servicios</h5>
+          <ul class="list-unstyled">
+            <li class="mb-3">
+              ALOJAMIENTO EN SERVIDORES
+            </li>
+            <li class="mb-3">
+              DISEÑO DE PÁGINAS WEB
+            </li>
+            <li class="mb-3">
+              CONSTRUCCIÓN DE SITIOS WEB
+            </li>
+            <li class="mb-3">
+              MANTENIMIENTO
+            </li>
+          </ul>
+          <h5 class="text-uppercase mb-4 mt-5">Contacto</h5>
+          <ul class="list-unstyled">
+            <li class="mb-3">
+              OPINIONES DE NUESTROS CLIENTES
+            </li>
+            <li class="mb-3">
+              CONSULTANOS
+            </li>
+            <li class="mb-3">
+              FOROS
+            </li>
+            <li class="mb-3">
+              BLOG
+            </li>
+            <li class="mb-3">
+              PRESENCIA EN LOS MEDIOS
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-4 mb-md-0 mb-3">
+          <h5 class="text-uppercase mb-4">Información</h5>
+          <ul class="list-unstyled">
+            <li class="mb-3">
+              QUIÉNES SOMOS
+            </li>
+            <li class="mb-3">
+              PRIMEROS PASOS
+            </li>
+            <li class="mb-3">
+              NUESTRA FAMILIA
+            </li>
+            <li class="mb-3">
+              AMBIENTE DE TRABAJO
+            </li>
+            <li class="mb-3">
+              NUESTRAS OFICINAS
+            </li>
+            <li class="mb-3">
+              COLABORACIONES EN LA INDUSTRIA
+            </li>
+            <li class="mb-3">
+              CHARLAS ABIERTAS
+            </li>
+            <li class="mb-3">
+              EVENTOS EXTERNOS
+            </li>
+          </ul>
+        </div>
+        <div class="col-12">
+          <h5 class="text-uppercase mt-5 mb-4">REDES SOCIALES</h5>
+          <ul class="list-unstyled">
+            <li class="mb-3">
+              <i class="bi bi-facebook mr-2"></i>
+              <i class="bi bi-instagram mr-2"></i>
+              <i class="bi bi-twitter mr-2"></i>
+              <i class="bi bi-youtube mr-2"></i>
+              <i class="bi bi-linkedin mr-2"></i>
+            </li>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright text-center py-4">© 2021 Copyright: utn-hosting.com
+    </div>
   </footer>
   <script src="./index_files/jquery-3.3.1.slim.min.js.descarga"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
